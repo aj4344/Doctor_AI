@@ -168,13 +168,7 @@ Doctor AI can be deployed to various web platforms:
 5. Add the GROQ_API_KEY as an environment variable
 6. Deploy the application
 
-### Deploying to Railway
 
-1. Sign up for Railway (https://railway.app)
-2. Create a new project from GitHub
-3. Connect your repository
-4. Add the GROQ_API_KEY as an environment variable
-5. Deploy the application
 
 ---
 
