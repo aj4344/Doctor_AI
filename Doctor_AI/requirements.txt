@@ -1,0 +1,19 @@
+# requirements.txt
+# This file contains the Python dependencies for the Doctor AI project.
+# Use 'pip install -r requirements.txt' to install them.
+
+# --- Core Framework ---
+gradio==4.31.5 # For creating the web UI and interactive app
+
+# --- AI & Machine Learning ---
+groq==0.9.0 # For accessing Groq's fast inference APIs (LLM and Whisper)
+speechrecognition==3.10.4 # For capturing microphone input and handling audio data
+pyaudio==0.2.14 # Required by SpeechRecognition for microphone access
+
+# --- Text-to-Speech (TTS) ---
+edge-tts==6.1.10 # Primary TTS engine for the doctor's voice (high-quality, natural voices)
+gtts==2.5.1 # Fallback TTS engine, used if Edge TTS fails
+playsound==1.2.2 # A simple library to play the generated audio files cross-platform
+
+# --- Utilities ---
+python-dotenv==1.0.1 # For managing environment variables (e.g., API keys) from a .env file
