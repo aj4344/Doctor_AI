@@ -36,8 +36,8 @@ Setup and Installation
 Follow these steps to run the Doctor AI project locally.
 
 1. Clone the Repository
-git clone https://github.com/your-username/medmind-ai.git # Replace with your repo URL
-cd medmind-ai
+git clone https://github.com/aj4344/Doctor_AI.git
+cd Doctor_AI
 2. Create a Virtual Environment
 It's highly recommended to use a virtual environment to manage dependencies.
 
